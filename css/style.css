@@ -1,0 +1,53 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.civil-con {
+	width: 100%;
+	margin: auto;
+}
+.civil-row {
+	display: flex;
+}
+.civil-box {
+	width: 33.3%;
+	text-align: center;
+	padding: 15px;
+}
+img {
+	max-width: 100%;
+	border-radius: 15px;
+	position: relative;
+}
+.civil-pos {
+	position: absolute;
+	background: #fcfcfabf;
+	bottom: 100px;
+	text-align: center;
+}
+.civil-pos {
+	position: relative;
+	border-radius: 3%;
+	width: 350px;
+	height: 200px;
+	margin: auto;
+	box-shadow: 0 0 10px #87898a;
+}
+.civil-hed {
+	padding: 60px;
+}
+.civil-icon {
+	position: absolute;
+	left: 140px;
+	top: -30px;
+	padding: 20px;
+	border-radius: 50%;
+	width: 80px;
+	height: 80px;
+	background-color: #0099a1;
+	border: 6px solid #f5f5fa;
+	display: flex;
+	justify-content: center;
+	font-size: 30px;
+}
